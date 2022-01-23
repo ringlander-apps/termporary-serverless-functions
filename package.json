@@ -1,0 +1,25 @@
+{
+  "name": "moodswings-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "netlify": "netlify dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "querystring": "^0.2.1",
+    "request": "^2.88.2",
+    "serverless-http": "^2.7.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^8.13.0"
+  }
+}

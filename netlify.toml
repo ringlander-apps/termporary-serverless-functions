@@ -1,0 +1,11 @@
+[build]
+    functions = "./functions"
+
+[[redirects]]
+    from = "/api/auth/*"
+    to = "/.netlify/functions/spotify-auth/:splat"
+    status = 200
+[[redirects]]
+    from = "/api/basic/*"
+    to = "/.netlify/functions/basic/:splat"
+    status = 200
